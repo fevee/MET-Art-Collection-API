@@ -1,0 +1,115 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  background-color: #e4002b;
+  color: #fff;
+  padding: 10px;
+}
+.header-image-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.header-image {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  display: inline-block;
+  margin-right: 10px;
+  width: 33%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  display: inline-block;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #808080;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+  background-color: #c0c0c0;
+}
+
+.random-button {
+  display: block;
+  margin: 40px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e4002b;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.random-button:hover {
+  background-color: #b60022;
+}
+
+.artwork {
+  margin-bottom: 20px;
+  border: 1px solid #e4002b;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.artwork h3 {
+  margin: 0;
+}
+
+.artwork h4 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.artwork p {
+  margin: 5px 0;
+}
+
+.artwork img {
+  margin-top: 25px;
+  max-width: 50%;
+}
+
+.artwork a {
+  color: #000;
+  text-decoration: underline; /* Default underline */
+  text-decoration-thickness: 0.2em; /* Thicker underline */
+  transition: color 0.3s, text-decoration-color 0.3s; /* Transition color and underline color */
+}
+
+.artwork a:hover {
+  color: #808080;
+}
+
+footer {
+  text-align: center;
+  height: 5px;
+}
