@@ -43,12 +43,7 @@ const SearchBar = ({ onSearch }) => {
 
   return (
     <div className="search-bar">
-      <input
-        type="text"
-        placeholder="Search titles..."
-        value={searchQuery}
-        onChange={handleInputChange}
-      />
+      <input type="text" value={searchQuery} onChange={handleInputChange} />
       <button onClick={handleSearch}>Search</button>
     </div>
   );
@@ -131,8 +126,8 @@ export default function App() {
         />
       </div>
       <p>
-        Welcome to the MET Collection Database. Here you can search for artworks
-        by title or by keyword.
+        Welcome to the MET Collection Database. Here you can search for artwork
+        by title, artist, or by keyword.
       </p>
       <SearchBar onSearch={handleSearch} />
       <button onClick={fetchRandomArtwork} className="random-button">
