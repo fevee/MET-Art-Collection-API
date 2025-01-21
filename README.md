@@ -14,7 +14,7 @@ Discover the fascinating world of art through the Metropolitan Museum of Art's p
 ## Built With  
 - **React** - Frontend library for building the user interface.  
 - **MET Public Collection API** - For fetching and displaying artwork data.  
-- **CSS - For minimal and clean base styling.  
+- **CSS** - For minimal and clean base styling.  
 - **CodeSandbox** - Used to create a live demo of the app.  
 
 ## How to Run  
