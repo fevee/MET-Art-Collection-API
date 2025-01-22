@@ -32,4 +32,3 @@ Discover the fascinating world of art through the Metropolitan Museum of Art's p
    ```bash  
    npm start
 
-Alternatively, you can explore the app live on [CodeSanbox](https://codesandbox.io/p/github/fevee/MET-Art-Collection-API)
