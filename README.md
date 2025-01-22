@@ -8,7 +8,7 @@ Discover the fascinating world of art through the Metropolitan Museum of Art's p
 ## Features  
 - 🎨 Search for artwork by title, artist, or keyword.  
 - 🎲 Randomize your art journey with a surprise piece from the collection.  
-- 🖼️ View detailed information on each artwork, including its medium, artist, and creation date.  
+- 🖼️ View information on each artwork, including a link to detiled information on the MET website.  
 - 🛡️ Copyright-aware images ensure only accessible content is displayed.  
 
 ## Built With  
